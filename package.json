@@ -16,6 +16,7 @@
     "@google/genai": "^2.32.0",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.49.1",
+    "@vercel/analytics": "^2.0.1",
     "html-to-image": "^1.11.11",
     "jsqr": "^1.4.0",
     "libphonenumber-js": "^1.13.15",

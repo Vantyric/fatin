@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
 import Script from "next/script";
@@ -97,7 +98,8 @@ export default function RootLayout({
           </main>
           <Footer />
         </ThemeProvider>
-      </body>
+        <Analytics />
+</body>
     </html>
   );
 }
